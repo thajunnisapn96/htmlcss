@@ -1,0 +1,387 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #FF8C00;
+  padding: 20px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section styles */
+#hero {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url("./chicken-tikka-masala-spicy-curry-meat-food-clay-plate-with-rice-dark-background-generative-ai.jpg");
+  background-repeat: no-repeat;
+ background-size: 100%;
+  background-attachment: fixed;
+}
+
+#hero h1 {
+  color: #FFFFFF;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #249762;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #FFC200;
+}
+#products h2{
+  margin-top: 2rem;
+  text-align: center;
+  color: #FF8C00;
+  font-size: 35px;
+}
+#products .container{
+  display: flex;
+  margin-top: 2rem;
+  text-align: center;
+  color: #FF8C00;
+ justify-content: space-evenly;
+
+}
+/* CATEGORIES section styles */
+
+
+#products {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#products h3 {
+ 
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.product {
+  margin-bottom: 40px;
+ 
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  border-radius: 50%;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 16px;
+}
+
+
+/* Products section styles */
+#productlist {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+#productlist h3{
+color: brown;
+font-size: 30px;
+}
+#productlist .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product1 {
+  max-width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  
+}
+.product1 h4{
+  font-size: 20px;
+}
+
+.product1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product1 h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.product1 p {
+  font-size: 16px;
+  color: #666666;
+}
+
+/* Footer and other styles can be added here */
+
+
+
+/* Recipe section styles */
+#recipes {
+  padding: 60px 0;
+  text-align: center;
+  color: brown;
+  background-color:#FFD700 ;
+}
+
+#recipes h2 {
+  text-align: center;
+  color: brown;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.recipe {
+  margin-bottom: 40px;
+}
+
+.recipe img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.recipe h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe p {
+  font-size: 16px;
+}
+
+/* Testimonials section styles */
+#testimonials .container{
+  display: flex;
+}
+#testimonials {
+  padding: 60px 0;
+  text-align: center;
+  color: #FF8C00;
+}
+
+#testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.testimonial {
+  margin-bottom: 40px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial cite {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+/* About Us section styles */
+
+#about {
+  
+  padding: 60px 0;
+  text-align: center;
+}
+#about .container{
+  display: flex;
+}
+#about h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #FF8C00; /* Orange color for the heading */
+}
+
+#about .about-content {
+  
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+
+#about .about-image {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 30px;
+}
+
+#about img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+#about .about-text {
+  flex: 1;
+  max-width: 400px;
+  text-align: left;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  margin-top: 2rem;
+  color: #333333; /* Darker text color */
+}
+
+/* Contact section styles */
+#contact {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #F5F5F5;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #2E8B57; /* Green color for the heading */
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #555555; /* Slightly darker text color */
+}
+
+form input,
+form textarea {
+  margin-left: 2rem;
+  display: block;
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form textarea {
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+form button {
+  padding: 12px 24px;
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #FFA500; /* Slightly darker orange on hover */
+}
+
+/* Footer styles */
+footer {
+  background-color: #2E8B57;
+  padding: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+footer nav ul {
+  justify-content: center;
+}
+
+footer nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
